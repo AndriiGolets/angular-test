@@ -3,7 +3,7 @@ docker:
     image:
       name: openjdk:8-jdk-alpine
   image:
-    name: blockchain
+    name: angular-test
     environment: staging
   opts: '"-server", "-Xms256M", "-Xmx512M"'
   port: 8085

@@ -1,0 +1,7 @@
+version: "2.0"
+services:
+  angular-test:
+    container_name: angular-test-java-api
+    image: staging/angular-test
+    ports:
+      - "8085:8085"
